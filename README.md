@@ -15,3 +15,6 @@ HEAD文件+Huffman压缩后的内容
 解压后在原文件名前加上"Re"
 
 
+## License
+
+MIT License
