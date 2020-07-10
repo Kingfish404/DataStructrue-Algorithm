@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CLLKDlg</class>
+ <widget class="QMainWindow" name="CLLKDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#labelTitle{
+	width:100%;
+	text-align:center;
+	font-size:80px;
+	font-family: &quot;Microsoft Yahei&quot;,Arial,Helvetica,sans-serif,&quot;宋体&quot;!important;
+}
+
+.QPushButton
+{
+	border-radius:10px;
+	min-height:10px;
+	min-width:20px;
+	font-size:18px;
+	color:black;
+	background-color:rgb(202,174,126);
+	border:1px solid black;
+}
+.QPushButton:hover
+{
+	font-size:20px;
+	background-color:white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="startBaseBtn">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>200</y>
+      <width>201</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>基本模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startEasyBtn">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>200</y>
+      <width>201</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>休闲模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startGKBtn">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>200</y>
+      <width>191</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>关卡模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRank">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>512</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>排行榜</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSetting">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>512</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>设置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnHelp">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>512</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>帮助</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTitle">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>60</y>
+      <width>411</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::PreventContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>王国连连看</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnQuit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>510</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>退出游戏</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>startBaseBtn</tabstop>
+  <tabstop>startGKBtn</tabstop>
+  <tabstop>startEasyBtn</tabstop>
+  <tabstop>btnRank</tabstop>
+  <tabstop>btnSetting</tabstop>
+  <tabstop>btnHelp</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

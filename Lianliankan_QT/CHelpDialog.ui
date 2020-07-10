@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CHelpDialog</class>
+ <widget class="QDialog" name="CHelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>王国连连看 - 游戏说明</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/source/images/res/LLK.ico</normaloff>:/source/images/res/LLK.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAsNeeded</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>336</width>
+        <height>820</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="labInfo">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="whatsThis">
+          <string>游戏说明介绍</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;基本模式&lt;/span&gt;&lt;/p&gt;&lt;p&gt;基本模式是“欢乐连连看&amp;quot;游戏的基本模式，包含游戏的基本功能:开始游戏、暂停游戏、提示、重排、计时。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;1.开始游戏&lt;/span&gt;&lt;/p&gt;&lt;p&gt;当第一次进入游戏或者完成一局游戏后， 点击“开始游戏”可以生成游戏地图，进行连连看游戏。在游戏地图中用鼠标左健点击任意位置的两张图片，选中图片后，会在选择的图片四周显示红色的矩形框并判断能否消子，&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;2、哲停游戏&lt;/span&gt;&lt;/p&gt;&lt;p&gt;当游戏开始后，可以点击“暂停”按钮，将游戏暂停。暂停游戏后，可以点击“继续游戏”按钮。继续游戏。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;3、提示&lt;/span&gt;&lt;/p&gt;&lt;p&gt;当游戏开始后，可以点击“提示”按钮，将在游戏地图中，用矩形框提示- -对可以消除的图片，并显示连接的路径。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;4、重排&lt;/span&gt;&lt;/p&gt;&lt;p&gt;游戏开始后，可以点击“重排&amp;quot;按钮，将游戏地图中，剩余的位置的图片重新排列。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;休闲模式&lt;/span&gt;&lt;/p&gt;&lt;p&gt;在这个模式，无时间限制，但是有积分&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;积分&lt;/span&gt;&lt;/p&gt;&lt;p&gt;游戏开始时，积分为0。游戏开始后根据玩家消除的图片数量计算并显示积分。&lt;/p&gt;&lt;p&gt;积分计算规则:&lt;/p&gt;&lt;p&gt;①当成功消除一对图片时， 积分加10分。&lt;/p&gt;&lt;p&gt;②当积分超过20时，可以使用提示功能，每使用一次提示功能，积分扣除20分。&lt;/p&gt;&lt;p&gt;③当积分超过50时，可以使用重排功能，每使用-次重排功能，积分扣除50分。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;道具&lt;/span&gt;&lt;/p&gt;&lt;p&gt;当玩家积分每次达到100分的整数倍时，自动获取一个道具。道具数量可以叠加。&lt;/p&gt;&lt;p&gt;使用该道具可以帮助玩家消除在游戏地图中选中的任意两个位置相同的图片。&lt;/p&gt;&lt;p&gt;使用一次道具后，道具数量减少一个。积分加10分。当道具个数小于1时，不能使用道具。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::RichText</enum>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labCPY">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string>版权声明</string>
+     </property>
+     <property name="text">
+      <string>Copyright @ 2020 Jin Yu,All rights reserved</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

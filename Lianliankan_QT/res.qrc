@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/source/images">
+        <file>res/LLK.ico</file>
+        <file>res/LLK.rc2</file>
+        <file>res/llk_main.jpg</file>
+        <file>res/llk_game_bg.jpg</file>
+        <file>res/1.png</file>
+        <file>res/2.png</file>
+        <file>res/3.png</file>
+        <file>res/4.png</file>
+        <file>res/5.png</file>
+        <file>res/6.png</file>
+        <file>res/0.png</file>
+    </qresource>
+</RCC>
